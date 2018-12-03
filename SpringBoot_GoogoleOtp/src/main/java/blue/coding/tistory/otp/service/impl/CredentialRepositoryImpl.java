@@ -1,4 +1,4 @@
-package blue.coding.tistory.otp.service.imple;
+package blue.coding.tistory.otp.service.impl;
 
 import java.util.List;
 
@@ -13,7 +13,7 @@ import blue.coding.tistory.user.repository.UserRepository;
 
 
 @Service
-public class CredentialRepositoryImple implements ICredentialRepository {
+public class CredentialRepositoryImpl implements ICredentialRepository {
 	@Autowired
 	private UserRepository uRepo;
 
